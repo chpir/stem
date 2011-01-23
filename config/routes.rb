@@ -1,4 +1,6 @@
 WordFrequenceyRails::Application.routes.draw do
+  root :to => 'analysis#index'
+  match 'analysis/stem' => 'analysis#stem'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
