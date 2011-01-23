@@ -1,3 +1,5 @@
+require 'lib/force_ssl.rb'
+
 WordFrequenceyRails::Application.configure do
   # Settings specified here will take precedence over those in config/environment.rb
 
